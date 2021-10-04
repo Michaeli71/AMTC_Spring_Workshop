@@ -1,0 +1,17 @@
+Schritt 2: Dependency Injection 
+-------------------------------
+
+Mit Schritt 1 ist noch nicht allzu viel erreicht, allerdings wird dadurch der 
+Grundstein dafür gelegt, dass man Abhängigkeiten nun als Parameter »injizieren« 
+kann. Als zweiten Schritt konstruiert der PizzaService die benötigten Objekte 
+nicht mehr selbst, sondern bekommt diese als Konstruktor- bzw. Methodenparameter 
+übergeben. Man spricht in diesem Zusammenhang auch von Dependency Injection, 
+da Abhängigkeiten in die nutzende Klasse als Parameter übergeben werden. 
+
+Insbesondere kann man eine Verbesserung vornehmen, indem die Rabattstrategie vom 
+Typ IDiscountStrategy nicht bereits an den Konstruktor, sondern erst später an die 
+Methode übergeben wird, die diese Referenz benötigt und damit die Berechnung durchführt. 
+
+Mithilfe des beschriebenen Vorgehens lässt sich die Methode orderPizza() einfacher testen 
+und Auswirkungen unterschiedlicher Strategien simulieren. Gemäß diesen Überlegungen 
+ergibt sich folgende Implementierung der Klasse PizzaService, die nun dem DIP folgt.

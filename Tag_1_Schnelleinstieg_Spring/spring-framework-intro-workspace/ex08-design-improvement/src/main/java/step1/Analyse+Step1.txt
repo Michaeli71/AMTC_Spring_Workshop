@@ -1,0 +1,39 @@
+Analyse 
+=======
+
+Die eben vorgestellte Klasse PizzaService besitzt verschiedene Abhängigkeiten. 
+Wenn wir die Funktionalität einer solchen Klasse testen wollen, erschweren (zu viele) 
+Abhängigkeiten, Unit Tests zu schreiben. Dies gilt hier aus folgenden zwei Gründen:
+
+1. Es besteht eine Fixierung auf die Datenquelle CustomerDAO, und diese Klasse liest 
+   die Kundendaten aus einer Datenbank. Dadurch können wir keine Tests mit einem eng 
+   umrissenen und vordefinierten Testdatenbestand vornehmen. Außerdem sollten wir 
+   tunlichst keine Testdaten in den sensiblen Kundendatenbestand einspielen, um 
+   Missverständnisse, Fehlbestellungen oder sonstige Fallstricke zu vermeiden.
+   
+2. Die Auswirkungen verschiedener Rabattaktionen, etwa ein Einführungsangebot 
+   oder eine Happy Hour, sind schwierig zu testen, da momentan fix der durch die 
+   Klasse Discount realisierte Rabatt zur Preisreduktion genutzt wird.
+   
+Wie eingangs schon erwähnt, kann man die Abhängigkeiten durch Einführen von Interfaces lösen. 
+Das ist jedoch nur für zentrale Klassen und Bestandteile sinnvoll, nämlich genau 
+für diejenigen, die Sollbruchstellen oder veränderliche, austauschba- re Funktionalität 
+anbieten. 
+
+Im obigen Beispiel bildet die Rechnungserstellung mit der Klasse Receipt eine Ausnahme. 
+Diese Funktionalität bleibt (vermutlich) stabil, daher fügen wir hier keine weitere 
+Indirektion ein. Das könnte jedoch dann notwendig werden, wenn man verschiedene 
+Zahlungs- und Rechnungsvorgänge unterstützen möchte.
+
+
+Schritt 1: Interfaces einführen 
+-------------------------------
+Wir wollen hier zunächst die Rabattberechnung und die Zugriffe auf Kunden durch 
+Interfaces unabhängig von konkreten Realisierun- gen halten. Wir führen dazu die 
+Interfaces IDiscountStrategy und ICustomerRepository sowie konkrete Realisierungen davon ein.
+
+Mit diesen Interfaces können wir in der Klasse PizzaService die Abhängigkeiten reduzieren, 
+indem wir die Referenzen auf konkrete Klassen durch Interfaces ersetzen und so eine losere Kopplung erzielen.
+
+Als Erstes ersetzt man also die direkten Abhängigkeiten durch Interfaces, konstruiert die Objekte 
+aber weiterhin innerhalb der Klasse selbst.
