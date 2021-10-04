@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+    <body>
+        <h1>Person List</h1>
+        <div>
+            <nobr>
+                <a th:href="@{/persons/add}">Add Contact</a> |
+                <a th:href="@{/home}">Back to Home</a>
+            </nobr>
+        </div>
+
+        <br/><br/>
+        <div>
+            <table border="1">
+                <tr>
+                    <th>Id</th>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Age</th>
+                    <th>Edit</th>
+                </tr>
+
+	
+                <tr th:each ="person : ${persons}">
+                    <td><a th:href="@{/persons/{personId}(personId=${person.id})}" th:utext="${person.id}">...</a></td>
+                    <td><a th:href="@{/persons/{personId}(personId=${person.id})}" th:utext="${person.firstName}">...</a></td>
+                    <td><a th:href="@{/persons/{personId}(personId=${person.id})}" th:utext="${person.lastName}">...</a></td>
+                    <td><a th:href="@{/persons/{personId}(personId=${person.id})}" th:utext="${person.age}">...</a></td>
+
+                    <td><a th:href="@{/persons/{personId}/edit(personId=${person.id})}">Edit</a></td>
+                </tr>
+            </table>          
+        </div>
+    </body>
+</html>
