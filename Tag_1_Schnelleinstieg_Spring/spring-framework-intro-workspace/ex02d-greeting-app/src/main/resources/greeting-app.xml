@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:c="http://www.springframework.org/schema/c"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- <bean id="greetingService" class="ch.javaprofi.GreetingService"> -->
+	<!-- <constructor-arg name="msgText" -->
+	<!-- value="Welcome to Spring Workshop :-) This is the additional msg part!"></constructor-arg> -->
+	<!-- </bean> -->
+
+	<!-- easier constructor injection mit c: -->
+	<bean id="greetingService" class="ch.javaprofi.GreetingService"
+		c:msgText="Welcome to Spring Workshop :-) This is the additional msg part!" />
+
+</beans>
