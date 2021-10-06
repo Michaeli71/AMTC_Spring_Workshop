@@ -1,0 +1,80 @@
+2021-10-06 16:51:41.337  INFO 80595 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7271 (http)
+2021-10-06 16:51:41.347  INFO 80595 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-06 16:51:41.347  INFO 80595 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-06 16:51:41.397  INFO 80595 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-06 16:51:41.397  INFO 80595 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 867 ms
+2021-10-06 16:51:41.703  INFO 80595 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-10-06 16:51:41.806  INFO 80595 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7271 (http) with context path ''
+2021-10-06 16:52:07.614  INFO 80595 --- [http-nio-7271-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-06 16:52:07.615  INFO 80595 --- [http-nio-7271-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-06 16:52:07.616  INFO 80595 --- [http-nio-7271-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-10-06 16:52:07.634  WARN 80595 --- [http-nio-7271-exec-1] c.e.demo.controller.LoggingController    : A WARN Message
+2021-10-06 16:52:07.635 ERROR 80595 --- [http-nio-7271-exec-1] c.e.demo.controller.LoggingController    : An ERROR Message
+2021-10-06 16:52:09.143  WARN 80595 --- [http-nio-7271-exec-2] c.e.demo.controller.LoggingController    : A WARN Message
+2021-10-06 16:52:09.144 ERROR 80595 --- [http-nio-7271-exec-2] c.e.demo.controller.LoggingController    : An ERROR Message
+2021-10-06 16:55:53.659  INFO 80595 --- [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-10-06 17:04:39.508  INFO 80706 --- [main] d.PortAndLoggingSpringBootAppApplication : Starting PortAndLoggingSpringBootAppApplication using Java 11.0.11 on Air-von-Michael.fritz.box with PID 80706 (/Users/michaelinden/spring-boot-persistence-data-workspace/spring-boot-logging-and-port-example/target/classes started by michaelinden in /Users/michaelinden/spring-boot-persistence-data-workspace/spring-boot-logging-and-port-example)
+2021-10-06 17:04:39.511  INFO 80706 --- [main] d.PortAndLoggingSpringBootAppApplication : No active profile set, falling back to default profiles: default
+2021-10-06 17:04:40.489  INFO 80706 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7271 (http)
+2021-10-06 17:04:40.503  INFO 80706 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-06 17:04:40.503  INFO 80706 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-06 17:04:40.560  INFO 80706 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-06 17:04:40.561  INFO 80706 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 994 ms
+2021-10-06 17:04:40.910  INFO 80706 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-10-06 17:04:41.019  INFO 80706 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7271 (http) with context path ''
+2021-10-06 17:04:41.030  INFO 80706 --- [main] d.PortAndLoggingSpringBootAppApplication : Started PortAndLoggingSpringBootAppApplication in 2.127 seconds (JVM running for 3.007)
+2021-10-06 17:04:50.334  INFO 80706 --- [http-nio-7271-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-06 17:04:50.335  INFO 80706 --- [http-nio-7271-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-06 17:04:50.337  INFO 80706 --- [http-nio-7271-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-10-06 17:04:50.358  INFO 80706 --- [http-nio-7271-exec-1] c.e.demo.controller.LoggingController    : An INFO Message
+2021-10-06 17:04:50.359  WARN 80706 --- [http-nio-7271-exec-1] c.e.demo.controller.LoggingController    : A WARN Message
+2021-10-06 17:04:50.359 ERROR 80706 --- [http-nio-7271-exec-1] c.e.demo.controller.LoggingController    : An ERROR Message
+2021-10-06 17:05:37.215  INFO 80706 --- [http-nio-7271-exec-2] c.e.demo.controller.LoggingController    : An INFO Message
+2021-10-06 17:05:37.220  WARN 80706 --- [http-nio-7271-exec-2] c.e.demo.controller.LoggingController    : A WARN Message
+2021-10-06 17:05:37.220 ERROR 80706 --- [http-nio-7271-exec-2] c.e.demo.controller.LoggingController    : An ERROR Message
+2021-10-06 17:05:37.461  INFO 80706 --- [http-nio-7271-exec-3] c.e.demo.controller.LoggingController    : An INFO Message
+2021-10-06 17:05:37.462  WARN 80706 --- [http-nio-7271-exec-3] c.e.demo.controller.LoggingController    : A WARN Message
+2021-10-06 17:05:37.462 ERROR 80706 --- [http-nio-7271-exec-3] c.e.demo.controller.LoggingController    : An ERROR Message
+2021-10-06 17:05:48.500  INFO 80706 --- [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-10-06 17:05:54.022  INFO 80718 --- [main] d.PortAndLoggingSpringBootAppApplication : Starting PortAndLoggingSpringBootAppApplication using Java 11.0.11 on Air-von-Michael.fritz.box with PID 80718 (/Users/michaelinden/spring-boot-persistence-data-workspace/spring-boot-logging-and-port-example/target/classes started by michaelinden in /Users/michaelinden/spring-boot-persistence-data-workspace/spring-boot-logging-and-port-example)
+2021-10-06 17:05:54.024 DEBUG 80718 --- [main] d.PortAndLoggingSpringBootAppApplication : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-06 17:05:54.024  INFO 80718 --- [main] d.PortAndLoggingSpringBootAppApplication : No active profile set, falling back to default profiles: default
+2021-10-06 17:05:55.010  INFO 80718 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7271 (http)
+2021-10-06 17:05:55.019  INFO 80718 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-06 17:05:55.019  INFO 80718 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-06 17:05:55.103  INFO 80718 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-06 17:05:55.104  INFO 80718 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1024 ms
+2021-10-06 17:05:55.458  INFO 80718 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-10-06 17:05:55.566  INFO 80718 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7271 (http) with context path ''
+2021-10-06 17:05:55.581  INFO 80718 --- [main] d.PortAndLoggingSpringBootAppApplication : Started PortAndLoggingSpringBootAppApplication in 2.153 seconds (JVM running for 2.96)
+2021-10-06 17:06:01.493  INFO 80718 --- [http-nio-7271-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-06 17:06:01.495  INFO 80718 --- [http-nio-7271-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-06 17:06:01.496  INFO 80718 --- [http-nio-7271-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-10-06 17:06:01.518 TRACE 80718 --- [http-nio-7271-exec-1] c.e.demo.controller.LoggingController    : A TRACE Message
+2021-10-06 17:06:01.519 DEBUG 80718 --- [http-nio-7271-exec-1] c.e.demo.controller.LoggingController    : A DEBUG Message
+2021-10-06 17:06:01.519  INFO 80718 --- [http-nio-7271-exec-1] c.e.demo.controller.LoggingController    : An INFO Message
+2021-10-06 17:06:01.519  WARN 80718 --- [http-nio-7271-exec-1] c.e.demo.controller.LoggingController    : A WARN Message
+2021-10-06 17:06:01.519 ERROR 80718 --- [http-nio-7271-exec-1] c.e.demo.controller.LoggingController    : An ERROR Message
+2021-10-06 17:06:03.337 TRACE 80718 --- [http-nio-7271-exec-2] c.e.demo.controller.LoggingController    : A TRACE Message
+2021-10-06 17:06:03.343 DEBUG 80718 --- [http-nio-7271-exec-2] c.e.demo.controller.LoggingController    : A DEBUG Message
+2021-10-06 17:06:03.343  INFO 80718 --- [http-nio-7271-exec-2] c.e.demo.controller.LoggingController    : An INFO Message
+2021-10-06 17:06:03.343  WARN 80718 --- [http-nio-7271-exec-2] c.e.demo.controller.LoggingController    : A WARN Message
+2021-10-06 17:06:03.343 ERROR 80718 --- [http-nio-7271-exec-2] c.e.demo.controller.LoggingController    : An ERROR Message
+2021-10-06 17:06:04.853 TRACE 80718 --- [http-nio-7271-exec-3] c.e.demo.controller.LoggingController    : A TRACE Message
+2021-10-06 17:06:04.853 DEBUG 80718 --- [http-nio-7271-exec-3] c.e.demo.controller.LoggingController    : A DEBUG Message
+2021-10-06 17:06:04.853  INFO 80718 --- [http-nio-7271-exec-3] c.e.demo.controller.LoggingController    : An INFO Message
+2021-10-06 17:06:04.853  WARN 80718 --- [http-nio-7271-exec-3] c.e.demo.controller.LoggingController    : A WARN Message
+2021-10-06 17:06:04.854 ERROR 80718 --- [http-nio-7271-exec-3] c.e.demo.controller.LoggingController    : An ERROR Message
+2021-10-06 17:06:34.840  INFO 80718 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-10-06 17:08:01.302  INFO 80738 --- [main] d.PortAndLoggingSpringBootAppApplication : Starting PortAndLoggingSpringBootAppApplication using Java 11.0.11 on Air-von-Michael.fritz.box with PID 80738 (/Users/michaelinden/spring-boot-persistence-data-workspace/spring-boot-logging-and-port-example/target/classes started by michaelinden in /Users/michaelinden/spring-boot-persistence-data-workspace/spring-boot-logging-and-port-example)
+2021-10-06 17:08:01.304 DEBUG 80738 --- [main] d.PortAndLoggingSpringBootAppApplication : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-06 17:08:01.304  INFO 80738 --- [main] d.PortAndLoggingSpringBootAppApplication : No active profile set, falling back to default profiles: default
+2021-10-06 17:08:02.313  INFO 80738 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7271 (http)
+2021-10-06 17:08:02.321  INFO 80738 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-06 17:08:02.322  INFO 80738 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-06 17:08:02.383  INFO 80738 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-06 17:08:02.384  INFO 80738 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1020 ms
+2021-10-06 17:08:02.751  INFO 80738 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-10-06 17:08:02.859  INFO 80738 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7271 (http) with context path ''
+2021-10-06 17:08:02.872  INFO 80738 --- [main] d.PortAndLoggingSpringBootAppApplication : Started PortAndLoggingSpringBootAppApplication in 2.14 seconds (JVM running for 2.971)
+2021-10-06 17:10:10.125  INFO 80738 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
