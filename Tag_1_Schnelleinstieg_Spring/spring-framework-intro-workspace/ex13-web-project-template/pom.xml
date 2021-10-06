@@ -4,10 +4,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>javaprofi-academy</groupId>
-	<artifactId>ex13-web-project</artifactId>
+	<artifactId>ex13-web-project-template</artifactId>
 	<version>1.0.0</version>
 	<name>ex13-web-project</name>
-	<description>ex13-web-project</description>
+	<description>ex13-web-project-template</description>
 
 	<dependencies>
 		<dependency>

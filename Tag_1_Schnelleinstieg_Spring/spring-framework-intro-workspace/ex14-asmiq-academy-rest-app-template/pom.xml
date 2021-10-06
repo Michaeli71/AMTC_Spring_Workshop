@@ -4,10 +4,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>javaprofi-academy</groupId>
-	<artifactId>ex14-asmiq-academy-app</artifactId>
+	<artifactId>ex14-asmiq-academy-app-template</artifactId>
 	<version>1.0.0</version>
 	<name>ex14-asmiq-academy-app</name>
-	<description>ex14-asmiq-academy-app</description>
+	<description>ex14-asmiq-academy-app-template</description>
 
 	<dependencies>
 		<dependency>

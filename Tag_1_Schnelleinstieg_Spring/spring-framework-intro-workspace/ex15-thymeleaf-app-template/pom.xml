@@ -4,10 +4,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>javaprofi-academy</groupId>
-	<artifactId>ex15-thymeleaf-app</artifactId>
+	<artifactId>ex15-thymeleaf-app-template</artifactId>
 	<version>1.0.0</version>
 	<name>ex15-thymeleaf-app</name>
-	<description>ex15-thymeleaf-app</description>
+	<description>ex15-thymeleaf-app-template</description>
 
 	<dependencies>
 		<dependency>
