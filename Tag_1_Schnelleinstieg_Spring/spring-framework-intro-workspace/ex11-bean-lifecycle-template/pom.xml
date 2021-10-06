@@ -4,10 +4,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>javaprofi-academy</groupId>
-	<artifactId>ex11-bean-lifecycle</artifactId>
+	<artifactId>ex11-bean-lifecycle-template</artifactId>
 	<version>1.0.0</version>
 	<name>ex11-bean-lifecycle</name>
-	<description>ex11-bean-lifecycle</description>
+	<description>ex11-bean-lifecycle-template</description>
 
 	<dependencies>
 		<dependency>
