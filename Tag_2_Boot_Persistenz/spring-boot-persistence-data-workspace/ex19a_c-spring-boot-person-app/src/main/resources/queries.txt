@@ -1,8 +1,0 @@
-* Ermittle alle Personen. 
-  http://localhost:8080/persons
-
-* Ermittle alle Schweizer. 
-  http://localhost:8080/persons/filter-by-nationality?nationality=swiss
-
-* Ermittle alle Personen älter als 30. 
-  http://localhost:8080/persons/filter-older-than?age=30
